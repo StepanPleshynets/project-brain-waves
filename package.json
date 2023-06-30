@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-brain-waves-13/",
+    "build": "vite build --base=/project-brain-waves/",
     "preview": "vite preview"
   },
   "devDependencies": {
