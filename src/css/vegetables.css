@@ -1,3 +1,17 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
 .container {
     max-width: 375px;
     padding-left: 20px;
@@ -25,16 +39,36 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 0;
     margin-bottom: 20px;
     gap: 20px;
 }
 
 .goods-item {
+    list-style: none;
     max-width: 335px;
     padding: 40px 20px 20px 20px;
     border-radius: 20px;
     background-color: #EAF7E5;
+}
+
+.goods-title {
+    text-align: start;
+    margin-bottom: 8px;
+}
+
+.goods-text {
+    text-align: start;
+    margin-bottom: 40px;
+}
+
+.goods-img {
+    margin-bottom: 22px;
+}
+
+.goods-price {
+    text-align: start;
 }
 
 .vegetables-button {
@@ -44,6 +78,9 @@
     border: none;
     outline: transparent;
     background-color: #FC8A11;
+    text-transform: uppercase;
+    transform: rotate(-14deg);
+    color: #FFFFFF;
 
 }
 
@@ -52,6 +89,12 @@
         max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
+    }
+
+    .goods {
+        flex-direction: row;
+        flex-wrap: wrap;
+        grid-gap: 20px 20px;
     }
 
     .goods-item {
@@ -65,6 +108,11 @@
         margin-right: auto;
     }
 
+    .vegetables-button {
+        width: 114px;
+        height: 114px;
+    }
+
 }
 
 
@@ -75,7 +123,12 @@
         padding-right: 32px;
     }
 
+    .goods {
+        grid-gap: 24px 24px;
+    }
+
     .goods-item {
         max-width: 389px;
+        /* width: calc((100% - 48px)/3); */
     }
 }
