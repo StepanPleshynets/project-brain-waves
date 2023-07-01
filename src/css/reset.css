@@ -1,4 +1,46 @@
 /* Reset styles */
+/* -------------------ШРИФТЫ------------------- */
+/* dm-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/dm-sans-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* dm-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/dm-sans-v13-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* dm-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/dm-sans-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* --------------------ПАЛИТРА----------------- */
+:root {
+  --primary-text-black: #141414;
+  --white-color: #fff;
+  --hero-green-tee: #A1C487;
+  --vegetable-card-pistachio: #EAF7E5;
+  --btn-text-lambo: #FC8A11;
+  --bcg-section-purple: #FAF3E7;
+  --silver-color: #f3f3f3;
+}
+
+body {
+  background-color: #fff;
+}
+
+
 h1,
 h2,
 h3,
@@ -7,15 +49,17 @@ h5,
 h6,
 p {
   margin: 0;
+  margin-bottom: 0;
 }
 
 p:last-child {
   margin-bottom: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+ol,ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
   list-style: none;
 }
 
@@ -32,4 +76,20 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+  
+.link {
+  text-decoration: none;
+}
+.container { 
+  width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px; 
 }
