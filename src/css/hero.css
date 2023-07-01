@@ -140,3 +140,38 @@ button {
   letter-spacing: -0.56px;
   margin-bottom: 20px;
 }
+
+.hero-btn {
+  width: 68px;
+  height: 68px;
+  border-radius: 68px;
+  background: #faf3e7;
+  border: none;
+  margin-bottom: 8px;
+}
+
+.hero-btn-text {
+  width: 56px;
+  height: 32px;
+  transform: rotate(-14deg);
+  text-align: center;
+  color: #fc8a11;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #eaf7e5;
+}
+
+.hero-btn-text:hover,
+.hero-btn-text:focus {
+  color: #a1c487;
+}
