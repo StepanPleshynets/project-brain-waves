@@ -163,4 +163,15 @@ button {
   line-height: 1.14;
   letter-spacing: -0.56px;
   text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #eaf7e5;
+}
+
+.hero-btn-text:hover,
+.hero-btn-text:focus {
+  color: #a1c487;
 }
