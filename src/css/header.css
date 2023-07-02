@@ -38,6 +38,7 @@
 .page-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 17px;
   padding-bottom: 17px;
 }
@@ -50,6 +51,7 @@
   background: transparent;
   border: none;
   padding: 0;
+  height: 24px;
 }
 .shopping-cart {
   stroke: black;
