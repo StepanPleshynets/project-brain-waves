@@ -6,6 +6,11 @@
   background-size: cover;
 }
 
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .user-list {
   position: relative;
   display: flex;
@@ -130,19 +135,22 @@
   color: #a1c487;
 }
 
-.image-wrap {
+.second-hero-wrap {
+  position: relative;
   width: 100%;
-  display: flex;
-  justify-content: center;
+  height: 304px;
 }
 
-.tag-wrap {
-  display: flex;
-  width: 100%;
-  justify-content: end;
+.hero-image {
+  position: absolute;
+  bottom: 55px;
+  left: 8px;
 }
 
 .tag-list {
+  position: absolute;
+  bottom: 0;
+  right: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
@@ -190,6 +198,16 @@
   .hero-text {
     width: 490px;
     margin-bottom: 32px;
+  }
+
+  .hero-btn {
+    width: 114px;
+    height: 114px;
+    border-radius: 114px;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: -0.96px;
+    margin-bottom: 16px;
   }
 }
 
@@ -266,5 +284,15 @@
   .hero-text {
     width: 491px;
     margin-bottom: 32px;
+  }
+
+  .hero-btn {
+    width: 132px;
+    height: 132px;
+    border-radius: 132px;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -1.12px;
+    margin-bottom: 92px;
   }
 }
