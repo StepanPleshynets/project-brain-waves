@@ -45,6 +45,16 @@
 .shopping-cart-icon {
   display: none;
 }
+.menu-icon,
+.shopping-cart-icon {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+.shopping-cart {
+  stroke: black;
+  fill: white;
+}
 
 @media screen and (min-width: 768px) {
   .container {
@@ -75,9 +85,7 @@
   .shopping-cart-icon {
     display: flex;
   }
-  .shopping-cart {
-    stroke: #141414;
-  }
+
   .menu-header .item:not(:last-child) {
     margin-right: 14px;
   }
