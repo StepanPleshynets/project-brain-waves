@@ -4,13 +4,7 @@
 .list {
   list-style: none;
 }
-.container {
-  max-width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .logo-icon {
   fill: #77ac63;
@@ -59,9 +53,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 766px;
-  }
+  
   .page-header {
     align-items: center;
   }
@@ -98,9 +90,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
   .logo-header {
     margin-left: 308px;
   }
