@@ -8,8 +8,8 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" 
     />
-    <script type="module" crossorigin src="/project-brain-waves/assets/index-4f0c9418.js"></script>
-    <link rel="stylesheet" href="/project-brain-waves/assets/index-150d4675.css">
+    <script type="module" crossorigin src="/project-brain-waves/assets/index-4669d476.js"></script>
+    <link rel="stylesheet" href="/project-brain-waves/assets/index-2423d4ee.css">
   </head>
   <body>
     <header>
@@ -118,12 +118,21 @@
       <button type="button" class="hero-btn">SHOP<br />NOW</button>
     </div>
     <div class="second-hero-wrap">
-      <img
-        class="hero-image"
-        srcset="/project-brain-waves/assets/girl-a69e15a4.png 1x, /project-brain-waves/assets/girl@2x-c09d1475.png 2x"
-        src="/project-brain-waves/assets/girl-a69e15a4.png"
-        alt="Smilling Girl"
-      />
+      <picture class="hero-image">
+        <source
+          srcset="/project-brain-waves/assets/girl-a69e15a4.png 1x, /project-brain-waves/assets/girl@2x-c09d1475.png 2x"
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="/project-brain-waves/assets/girl-t-94afa8b4.png 1x, /project-brain-waves/assets/girl-t@2x-811b1978.png 2x"
+          media="(max-width: 1279px)"
+        />
+        <source
+          srcset="/project-brain-waves/assets/girl-d-388c6a19.png 1x, /project-brain-waves/assets/girl-d@2x-bcb8e05c.png 2x"
+          media="(min-width: 1280px)"
+        />
+        <img src="/project-brain-waves/assets/girl-a69e15a4.png" alt="Smilling Girl" />
+      </picture>
       <ul class="tag-list list">
         <li class="tag-item">#ORGANIC</li>
         <li class="tag-item">#PRODUCTS</li>
