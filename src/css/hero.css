@@ -179,6 +179,18 @@
     padding-top: 64px;
     padding-bottom: 32px;
   }
+
+  .title-hero {
+    font-size: 54px;
+    line-height: 1.19;
+    letter-spacing: -2.16px;
+    margin: 16px auto;
+  }
+
+  .hero-text {
+    width: 490px;
+    margin-bottom: 32px;
+  }
 }
 
 @media screen and (min-width: 768px) {
