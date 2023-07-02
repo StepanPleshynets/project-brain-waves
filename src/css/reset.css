@@ -13,8 +13,10 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ol,
-ul {
+ol,ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -29,8 +31,8 @@ button {
   cursor: pointer;
 }
 
-img,
-picture {
+img, picture {
+
   display: block;
   max-width: 100%;
   height: auto;
@@ -46,11 +48,24 @@ picture {
   text-decoration: none;
 }
 
+
+
+/* .container { 
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px; 
+} */
+
 .container {
   max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
 }
+
+
+
 
 @media screen and (min-width: 768px) {
   .container {
