@@ -12,5 +12,7 @@
   
   body {
     background-color: #fff;
+    color: var(--primary-text-black);
+    font-family: 'DM Sans', sans-serif;
   }
   
