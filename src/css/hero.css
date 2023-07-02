@@ -125,9 +125,14 @@
   color: #a1c487;
 }
 
-.hero-image {
-  margin: 0 auto 16px;
+.image-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
+/* .hero-image {
+  margin: 0 auto 16px;
+} */
 
 .tag-wrap {
   display: flex;
