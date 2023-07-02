@@ -254,4 +254,17 @@
   .user-item:nth-child(4) {
     left: 134px;
   }
+
+  .title-hero {
+    width: 672px;
+    font-size: 64px;
+    line-height: 1.17;
+    letter-spacing: -2.56px;
+    margin: 16px 0;
+  }
+
+  .hero-text {
+    width: 491px;
+    margin-bottom: 32px;
+  }
 }
