@@ -3,10 +3,6 @@
     margin-bottom: 80px;
 }
 
-.list-steps {
-    padding: O;
-}
-
 .titel-howitworks {
     max-width: 335px;
     font-family: DM Sans;
@@ -120,13 +116,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        margin: 0 auto;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-
     .container-howitworks {
         display: flex;
         flex-wrap: wrap;
@@ -196,10 +185,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-    }
-
     .titel-howitworks {
         max-width: 614px;
         font-size: 48px;
