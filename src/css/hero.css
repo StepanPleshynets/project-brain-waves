@@ -143,8 +143,9 @@
 
 .hero-image {
   position: absolute;
-  bottom: 55px;
-  right: 8px;
+  top: 0;
+  left: 8px;
+  transform: translateY(-3px);
 }
 
 .tag-list {
@@ -188,6 +189,19 @@
     padding-bottom: 32px;
   }
 
+  .user-item-count {
+    height: 20px;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+
+  .user-item-text {
+    font-size: 10px;
+    line-height: 1.2;
+    letter-spacing: -0.4px;
+  }
+
   .title-hero {
     font-size: 54px;
     line-height: 1.19;
@@ -208,6 +222,33 @@
     line-height: 1;
     letter-spacing: -0.96px;
     margin-bottom: 16px;
+  }
+
+  .second-hero-wrap {
+    height: 496px;
+  }
+
+  .hero-image {
+    position: absolute;
+    top: 0;
+    left: 82px;
+    transform: translateY(-8px);
+  }
+
+  .tag-list {
+    gap: 8px 4px;
+    width: 214px;
+  }
+
+  .tag-item {
+    padding: 9px 19px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.48px;
+  }
+
+  .tag-item:nth-child(1) {
+    padding: 10px 20px;
   }
 }
 
