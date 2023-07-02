@@ -129,11 +129,18 @@
   margin: 0 auto 16px;
 }
 
+.tag-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+
 .tag-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: end;
+  justify-content: end;
   gap: 4px;
+  width: 172px;
 }
 
 .tag-item {
