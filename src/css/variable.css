@@ -10,9 +10,11 @@
     --silver-color: #f3f3f3;
   }
   
-  body {
-    background-color: #fff;
-    color: var(--primary-text-black);
-    font-family: 'DM Sans', sans-serif;
-  }
+
+body {
+  background-color: var(--white-color);
+  font-family: 'DM Sans', sans-serif;
+  color: var(--primary-text-black);
+}
+
   
