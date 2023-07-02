@@ -22,6 +22,15 @@
 
 .menu-close {
   margin-left: auto;
+  width: 28px;
+  height: 28px;
+  background-color: #fff;
+  border: none;
+  align-items: center;
+}
+
+.menu-close-icon {
+  stroke: #77ac63;
 }
 
 .header-logo {
@@ -75,4 +84,8 @@
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+
+.menu-list-icon {
+  fill: #fff;
 }
