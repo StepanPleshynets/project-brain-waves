@@ -1,20 +1,5 @@
-picture {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.container {
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 .footer {
   background-color: var(--vegetable-card-pistachio);
-  /* font-family: 'DM Sans', sans-serif;
-  color: var(--primary-text-black); */
-  /* color: #141414; */
   padding: 80px 0;
 }
 
@@ -39,7 +24,6 @@ picture {
   letter-spacing: -0.56px;
   text-transform: uppercase;
   color: var(--primary-text-black);
-  /* color: #141414; */
 }
 
 .footer-navigation-list {
@@ -50,7 +34,6 @@ picture {
 
 .footer-navigation-link {
   color: var(--primary-text-black);
-  /* color: #141414; */
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.56px;
@@ -107,7 +90,6 @@ picture {
 
 .footer-address-link {
   color: var(--primary-text-black);
-  /* color: #141414; */
 }
 
 /* ************************ Mobile and Tablet ************************ */
@@ -143,12 +125,6 @@ picture {
 }
 /* ************************ Tablet ************************ */
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
   .footer-container {
     display: flex;
   }
@@ -170,10 +146,6 @@ picture {
 }
 /* ************************ Desktop ************************ */
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-
   .footer-container {
     gap: 166px;
   }
