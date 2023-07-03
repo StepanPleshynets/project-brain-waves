@@ -203,7 +203,6 @@
 
   .user-item-count {
     font-size: 18px;
-    line-height: 1;
     letter-spacing: -0.72px;
   }
 
@@ -299,8 +298,19 @@
 @media screen and (min-width: 1280px) {
   .hero {
     min-width: 100%;
+    background-size: cover;
+
     padding-top: 132px;
     padding-bottom: 32px;
+  }
+
+  .hero-container {
+    flex-direction: row;
+  }
+
+  .first-hero-wrap {
+    width: 672px;
+    justify-content: space-between;
   }
 
   .user-list {
@@ -341,7 +351,7 @@
   }
 
   .title-hero {
-    width: 672px;
+    width: 100%;
     font-size: 64px;
     line-height: 1.17;
     letter-spacing: -2.56px;
@@ -390,4 +400,9 @@
   .tag-item:nth-child(1) {
     padding: 12px 32px;
   }
+
+  .second-hero-wrap {
+    height: 566px;
+  }
+
 }

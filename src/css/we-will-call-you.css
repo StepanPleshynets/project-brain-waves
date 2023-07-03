@@ -62,16 +62,20 @@
 }
 .bg-salad-girl{
     margin-top: 40px;
-    width: 295px;
+    /* width: 295px; */
     height: 388px;
     border-radius: 40px;
     background: #FAF3E7;
-    background-image: url(./images/s4_we_will_call_you/background-points.png);
+    background-image: url(./images/BG_dots.png);
+    max-width: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 @media screen and (min-width: 375px) and (max-width: 767px){
     .salad-girl-img{
         /* width: 335px; */
-        height: 357px;
+        /* height: 357px; */
         /* content: url(./images/s4_girl_mob.webp); */
     }
     .section-recall-container{
@@ -100,7 +104,7 @@
 @media screen and (min-width: 768px) and (max-width: 1279px){
     .salad-girl-img{
         margin: 0 auto;
-        height: 446px;
+        /* height: 446px; */
         margin-top: -17px;
         /* content: url(./images/s4_girl_tab.webp); */
     }
@@ -127,7 +131,7 @@
         width: 350px;
     }
     .bg-salad-girl{
-        width: 704px;
+        max-width: 704px;
         height: 463px;
         margin: 0 auto;
         margin-top: 80px;
@@ -160,17 +164,16 @@
         text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
         text-align: left;
         margin-top: 150px;
-        font-family: ;
     }
     .bg-salad-girl{
-        width: 525px;
+        max-width: 525px;
         height: 536px;
         margin-left: auto;
         margin-top: -430px;
     }
     .salad-girl-img{
-        width: 490px;
-        height: 499px;
+        /* width: 490px; */
+        /* height: 499px; */
         margin: 0 auto;
         /* content: url(./images/s4_girl_desktop.webp); */
     }
