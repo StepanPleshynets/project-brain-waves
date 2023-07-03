@@ -1,10 +1,15 @@
 .menu {
-  max-width: 375px;
+  /* max-width: 375px; */
   position: fixed;
   z-index: 11;
   top: 0;
+  right: 0;
   width: 100vw;
   height: 100vh;
+  transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transform: translate(0, 100%);
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .header-menu {
@@ -17,7 +22,10 @@
   align-items: center;
 }
 
-.header-link {
+.menu-btn {
+  background-color: transparent;
+  border: none;
+  align-items: center;
 }
 
 .menu-close {
@@ -34,8 +42,6 @@
 }
 
 .header-logo {
-  margin-top: 0;
-  margin-bottom: 0;
   margin-left: 8px;
   color: #141414;
   font-size: 14px;
@@ -57,12 +63,9 @@
   align-items: center;
   padding-top: 174px;
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .menu-link {
-  text-decoration: none;
   color: #fff;
   text-align: center;
   font-size: 14px;
@@ -76,8 +79,6 @@
 }
 
 .list-item-text {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .is-hidden {
