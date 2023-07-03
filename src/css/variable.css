@@ -1,0 +1,20 @@
+
+/* --------------------ПАЛИТРА----------------- */
+:root {
+    --primary-text-black: #141414;
+    --white-color: #fff;
+    --hero-green-tee: #A1C487;
+    --vegetable-card-pistachio: #EAF7E5;
+    --btn-text-lambo: #FC8A11;
+    --bcg-section-purple: #FAF3E7;
+    --silver-color: #f3f3f3;
+  }
+  
+
+body {
+  background-color: var(--white-color);
+  font-family: 'DM Sans', sans-serif;
+  color: var(--primary-text-black);
+}
+
+  

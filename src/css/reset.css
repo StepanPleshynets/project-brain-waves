@@ -1,4 +1,4 @@
-/* Reset styles */
+
 h1,
 h2,
 h3,
@@ -13,10 +13,13 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul {
+ol,ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 a {
@@ -28,8 +31,51 @@ button {
   cursor: pointer;
 }
 
-img {
+img, picture {
+
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+  
+.link {
+  text-decoration: none;
+}
+
+
+
+/* .container { 
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px; 
+} */
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
 }
