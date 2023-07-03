@@ -216,4 +216,8 @@
     .girl-container {
         margin-right: 110px;
     }
+   .girl-container picture {
+width: 434px;
+height: 420px;
+    }
 }
