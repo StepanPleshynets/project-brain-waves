@@ -1,10 +1,11 @@
 
 .section-recall-container{
-    max-width: 374px;
+    /* max-width: 374px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 20px; */
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 80px;
 }
 .h3-section-five{
     font-size: 24px;
@@ -72,15 +73,15 @@
     justify-content: center;
     align-items: flex-end;
 }
-@media screen and (min-width: 375px) and (max-width: 767px){
+@media screen and (min-width: 375px) and (max-width: 767px){  
     .salad-girl-img{
         /* width: 335px; */
         /* height: 357px; */
         /* content: url(./images/s4_girl_mob.webp); */
     }
-    .section-recall-container{
+    /* .section-recall-container{
         max-width: 375px;
-    }
+    } */
     .p-section-five{
         width: 321px;
         margin: 0 auto;
@@ -109,7 +110,8 @@
         /* content: url(./images/s4_girl_tab.webp); */
     }
     .section-recall-container{
-        max-width: 768px;
+        padding-bottom: 173px;
+        /* max-width: 768px; */
     }
     .p-section-five{
         line-height: 24px;
@@ -146,7 +148,8 @@
 }
 @media screen and (min-width: 1280px){
     .section-recall-container{
-        max-width: 1280px;
+        /* max-width: 1280px; */
+        padding-bottom: 124px;
     }
     .p-section-five{
         line-height: 24px;
