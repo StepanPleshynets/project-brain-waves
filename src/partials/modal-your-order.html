@@ -1,0 +1,143 @@
+<div class="backdrop is-hidden" data-modal>
+    <!-- Modal-header -->
+    <section class="modal-header">
+      <div class="container-modal modal-header">
+        <h1 class="modal-title">Your Order</h1>
+        <button type="button" class="modal-close" data-modal-close>
+          <svg class="modal-close-icon">
+            <use href="./images/icons.svg#icon-close-black-18dp"></use>
+          </svg>
+        </button>
+      </div>
+    </section>
+    <!-- Modal-product -->
+    <section>
+      <div class="container-modal">
+        <ul class="modal-check">
+          <li class="modal-check-product">
+            <input
+              type="checkbox"
+              name="cabbage"
+              id="cabbage"
+              class="modal-product-input"
+              hidden
+            />
+            <label for="cabbage" class="check-product-label">
+              <span class="item-check">
+                <svg class="icon-check">
+                  <use href="./css/icons.svg#icons-pick"></use>
+                </svg>
+              </span>
+            </label>
+            <div class="product-text">
+              <h3 class="product-text-article">Cabbage Basket</h3>
+              <p class="product-text-paragraph">Plant</p>
+            </div>
+            <!-- pICTURES -->
+            
+          </li>
+          <li class="modal-check-product">
+            <input
+              type="checkbox"
+              name="tomato"
+              id="tomato"
+              class="modal-product-input"
+              hidden
+            />
+            <label for="tomato" class="check-product-label">
+              <span class="item-check">
+                <svg class="icon-check">
+                  <use href="./css/icons.svg#icons-pick"></use>
+                </svg>
+              </span>
+            </label>
+            <div class="product-text">
+              <h3 class="product-text-article">Tomato Basket</h3>
+              <p class="product-text-paragraph">Plant</p>
+            </div>
+            <!-- pICTURES -->
+            <img
+              src="./images/product/tomato.png"
+              alt="Tomato Basket"
+              class="product-img"
+            />
+          </li>
+          <li class="modal-check-product">
+            <input
+              type="checkbox"
+              name="vegetables"
+              id="vegetables"
+              class="modal-product-input"
+              hidden
+            />
+            <label for="vegetables" class="check-product-label">
+              <span class="item-check">
+                <svg class="icon-check">
+                  <use href="./css/icons.svg#icons-pick"></use>
+                </svg>
+              </span>
+            </label>
+            <div class="product-text">
+              <h3 class="product-text-article">Vegetables Basket</h3>
+              <p class="product-text-paragraph">Plant</p>
+            </div>
+            <!-- pICTURES -->
+            <img
+              src="./images/product/vegetables-basket.png"
+              alt="Vegetables Basket"
+              class="product-img"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Inputs -->
+    <section class="modal-form-input">
+      <div class="container-modal">
+        <form class="modal-form">
+        <div class="input">
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            class="modal-input"
+            placeholder="Enter full name..."
+            required
+          />
+        </div>
+        <div class="input">
+          <input
+            type="email"
+            name="user-tel"
+            id="user-tel"
+            class="modal-input"
+            placeholder="Enter email..."
+            required
+          />
+        </div>
+        <div class="input">
+          <input
+            type="text"
+            name="user-email"
+            id="user-email"
+            class="modal-input"
+            placeholder="Enter card.."
+            required
+          />
+        </div>
+        <!-- Textarea -->
+        <div class="input modal-textarea">
+          <textarea
+            class="modal-comment"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Enter comments..."
+          ></textarea>
+        </div>
+        <!-- Button -->
+        <button type="submit" class="send-button">Submit</button>
+      </form>
+    </section>
+      </div>
+    </section>
+</div>
