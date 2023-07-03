@@ -4,19 +4,15 @@
 .list {
   list-style: none;
 }
-
-
 .logo-icon {
   fill: #77ac63;
 }
-
 .logo-header {
   display: flex;
   align-items: center;
   padding-top: 16px;
   padding-bottom: 16px;
 }
-
 .logo-text {
   color: #141414;
   text-align: center;
@@ -53,7 +49,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  
   .page-header {
     align-items: center;
   }
