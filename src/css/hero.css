@@ -190,9 +190,8 @@
   }
 
   .user-item-count {
-    height: 20px;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1;
     letter-spacing: -0.72px;
   }
 
@@ -241,10 +240,10 @@
   }
 
   .tag-item {
-    padding: 9px 19px;
     font-size: 12px;
     line-height: 1.17;
-    letter-spacing: -0.48px;
+    letter-spacing: -0, 48px;
+    padding: 8px 18px;
   }
 
   .tag-item:nth-child(1) {
@@ -283,7 +282,7 @@
 
 @media screen and (min-width: 1280px) {
   .hero {
-    width: 100%;
+    min-width: 100%;
     padding-top: 132px;
     padding-bottom: 32px;
   }
@@ -314,6 +313,17 @@
     left: 134px;
   }
 
+  .user-item-count {
+    font-size: 24px;
+    letter-spacing: -0.96px;
+  }
+
+  .user-item-text {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.48px;
+  }
+
   .title-hero {
     width: 672px;
     font-size: 64px;
@@ -335,5 +345,36 @@
     line-height: 1;
     letter-spacing: -1.12px;
     margin-bottom: 92px;
+  }
+
+  .hero-container {
+    flex-direction: row;
+  }
+
+  .second-hero-wrap {
+    height: 566px;
+  }
+
+  .hero-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(32px);
+  }
+
+  .tag-list {
+    gap: 8px;
+    width: 266px;
+  }
+
+  .tag-item {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0, 48px;
+    padding: 10px 30px;
+  }
+
+  .tag-item:nth-child(1) {
+    padding: 12px 32px;
   }
 }
