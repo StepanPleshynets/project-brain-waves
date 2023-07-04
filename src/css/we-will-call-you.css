@@ -67,7 +67,7 @@
     height: 388px;
     border-radius: 40px;
     background: #FAF3E7;
-    background-image: url(./images/BG_dots.png);
+    background-image: url(../images/BG_dots.png);
     max-width: 335px;
     display: flex;
     justify-content: center;

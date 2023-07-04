@@ -1,220 +1,143 @@
-<div class="backdrop is-hidden" data-menu>
-  <div class="modal">
-    <picture class="modal-girl-img">
-      <source
-        srcset="
-          ./images/modal/tab/modal_girl_tab.webp    1x,
-          ./images/modal/tab/modal_girl_tab@2x.webp 2x
-        "
-        media="(max-width: 1279px)"
-      />
-      <source
-        srcset="
-          ./images/modal/desktop/modal_girl_desktop.webp    1x,
-          ./images/modal/desktop/modal_girl_desktop@2x.webp 2x
-        "
-        media="(min-width: 1280px)"
-      />
-      <img
-        src="./images/modal/desktop/modal_girl_desktop.webp"
-        alt="Smiling girl with vegetables"
-      />
-    </picture>
-    <button type="button" class="modal-close-btn" data-menu-close>
-      <svg class="modal-close-icon">
-        <use href="./images/project-brain-waves-icons.svg#icon-x"></use>
-      </svg>
-    </button>
-    <h2 class="modal-title">Your Order</h2>
-
-    <form class="modal-form">
-      <div class="modal-check-wrapper">
-        <div class="modal-form-check">
-          <input
-            type="checkbox"
-            name="cabbage"
-            id="cabbage"
-            class="modal-product-input visually-hidden"
-          />
-          <label for="cabbage" class="check-product-label">
-            <span class="item-check">
-              <svg class="icon-check">
-                <use
-                  href="./images/project-brain-waves-icons.svg#icon-pick"
-                ></use>
-              </svg>
-            </span>
-            <span class="product-text-article">Cabbage Basket</span>
-            <span class="product-text-paragraph">Plant</span>
-            <picture class="modal-check-img">
-              <source
-                srcset="
-                  ./images/modal/mob/1_modal_mob.webp    1x,
-                  ./images/modal/mob/1_modal_mob@2x.webp 2x
-                "
-                media="(max-width: 767px)"
-              />
-              <source
-                srcset="
-                  ./images/modal/tab/1_modal_tab.webp    1x,
-                  ./images/modal/tab/1_modal_tab@2x.webp 2x
-                "
-                media="(max-width: 1279px)"
-              />
-              <source
-                srcset="
-                  ./images/modal/desktop/1_modal_desktop.webp    1x,
-                  ./images/modal/desktop/1_modal_desktop@2x.webp 2x
-                "
-                media="(min-width: 1280px)"
-              />
-              <img
-                src="./images/modal/desktop/1_modal_desktop.webp"
-                alt="Cabbage Basket"
-                width="243"
-              />
-            </picture>
-          </label>
-        </div>
-        <div class="modal-form-check">
-          <input
-            type="checkbox"
-            name="tomato"
-            id="tomato"
-            class="modal-product-input visually-hidden"
-          />
-          <label for="tomato" class="check-product-label">
-            <span class="item-check">
-              <svg class="icon-check" width="6" height="6">
-                <use
-                  href="./images/project-brain-waves-icons.svg#icon-pick"
-                ></use>
-              </svg>
-            </span>
-            <span class="product-text-article">Tomato Basket</span>
-            <span class="product-text-paragraph">Plant</span>
-            <picture class="modal-check-img">
-              <source
-                srcset="
-                  ./images/modal/mob/2_modal_mob.webp    1x,
-                  ./images/modal/mob/2_modal_mob@2x.webp 2x
-                "
-                media="(max-width: 767px)"
-              />
-              <source
-                srcset="
-                  ./images/modal/tab/2_modal_tab.webp    1x,
-                  ./images/modal/tab/2_modal_tab@2x.webp 2x
-                "
-                media="(max-width: 1279px)"
-              />
-              <source
-                srcset="
-                  ./images/modal/desktop/2_modal_desktop.webp    1x,
-                  ./images/modal/desktop/2_modal_desktop@2x.webp 2x
-                "
-                media="(min-width: 1280px)"
-              />
-              <img
-                src="./images/modal/desktop/2_modal_desktop.webp"
-                alt="Tomato Basket"
-                width="243"
-              />
-            </picture>
-          </label>
-        </div>
-        <div class="modal-form-check">
-          <input
-            type="checkbox"
-            name="vegetables"
-            id="vegetables"
-            class="modal-product-input visually-hidden"
-          />
-          <label for="vegetables" class="check-product-label">
-            <span class="item-check">
-              <svg class="icon-check" width="6" height="6">
-                <use
-                  href="./images/project-brain-waves-icons.svg#icon-pick"
-                ></use>
-              </svg>
-            </span>
-            <span class="product-text-article">Vegetables Basket</span>
-            <span class="product-text-paragraph">Plant</span>
-            <picture class="modal-check-img">
-              <source
-                srcset="
-                  ./images/modal/mob/3_modal_mob.webp    1x,
-                  ./images/modal/mob/3_modal_mob@2x.webp 2x
-                "
-                media="(max-width: 767px)"
-              />
-              <source
-                srcset="
-                  ./images/modal/tab/3_modal_tab.webp    1x,
-                  ./images/modal/tab/3_modal_tab@2x.webp 2x
-                "
-                media="(max-width: 1279px)"
-              />
-              <source
-                srcset="
-                  ./images/modal/desktop/3_modal_desktop.webp    1x,
-                  ./images/modal/desktop/3_modal_desktop@2x.webp 2x
-                "
-                media="(min-width: 1280px)"
-              />
-              <img
-                src="./images/modal/desktop/3_modal_desktop.webp"
-                alt="Vegetables Basket"
-                width="243"
-              />
-            </picture>
-          </label>
-        </div>
+<div class="backdrop is-hidden" data-modal>
+    <!-- Modal-header -->
+    <section class="modal-header" data-modal>
+      <div class="container-modal modal-header">
+        <h1 class="modal-title">Your Order</h1>
+        <button type="button" class="modal-close" data-modal-close>
+          <svg class="modal-close-icon">
+            <use href="./images/icons.svg#icon-close-black-18dp"></use>
+          </svg>
+        </button>
       </div>
-
-      <div class="modal-inputs-wrapper">
-        <label class="modal-input-field">
+    </section>
+    <!-- Modal-product -->
+    <section>
+      <div class="container-modal">
+        <ul class="modal-check">
+          <li class="modal-check-product">
+            <input
+              type="checkbox"
+              name="cabbage"
+              id="cabbage"
+              class="modal-product-input"
+              hidden
+            />
+            <label for="cabbage" class="check-product-label">
+              <span class="item-check">
+                <svg class="icon-check">
+                  <use href="./css/icons.svg#icons-pick"></use>
+                </svg>
+              </span>
+            </label>
+            <div class="product-text">
+              <h3 class="product-text-article">Cabbage Basket</h3>
+              <p class="product-text-paragraph">Plant</p>
+            </div>
+            <!-- pICTURES -->
+            
+          </li>
+          <li class="modal-check-product">
+            <input
+              type="checkbox"
+              name="tomato"
+              id="tomato"
+              class="modal-product-input"
+              hidden
+            />
+            <label for="tomato" class="check-product-label">
+              <span class="item-check">
+                <svg class="icon-check">
+                  <use href="./css/icons.svg#icons-pick"></use>
+                </svg>
+              </span>
+            </label>
+            <div class="product-text">
+              <h3 class="product-text-article">Tomato Basket</h3>
+              <p class="product-text-paragraph">Plant</p>
+            </div>
+            <!-- pICTURES -->
+            <img
+              src="./images/product/tomato.png"
+              alt="Tomato Basket"
+              class="product-img"
+            />
+          </li>
+          <li class="modal-check-product">
+            <input
+              type="checkbox"
+              name="vegetables"
+              id="vegetables"
+              class="modal-product-input"
+              hidden
+            />
+            <label for="vegetables" class="check-product-label">
+              <span class="item-check">
+                <svg class="icon-check">
+                  <use href="./css/icons.svg#icons-pick"></use>
+                </svg>
+              </span>
+            </label>
+            <div class="product-text">
+              <h3 class="product-text-article">Vegetables Basket</h3>
+              <p class="product-text-paragraph">Plant</p>
+            </div>
+            <!-- pICTURES -->
+            <img
+              src="./images/product/vegetables-basket.png"
+              alt="Vegetables Basket"
+              class="product-img"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Inputs -->
+    <section class="modal-form-input">
+      <div class="container-modal">
+        <form class="modal-form">
+        <div class="input">
           <input
             type="text"
             name="user-name"
-            class="modal-input-item modal-input"
+            id="user-name"
+            class="modal-input"
             placeholder="Enter full name..."
-            pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
-            title="Petro Sidorenko"
             required
           />
-        </label>
-        <label class="modal-input-field">
+        </div>
+        <div class="input">
           <input
             type="email"
-            name="user-email"
-            class="modal-input-item modal-input"
+            name="user-tel"
+            id="user-tel"
+            class="modal-input"
             placeholder="Enter email..."
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-            title="sample@mail.com"
             required
           />
-        </label>
-        <label class="modal-input-field">
+        </div>
+        <div class="input">
           <input
             type="text"
-            name="user-card"
-            class="modal-input-item modal-input"
+            name="user-email"
+            id="user-email"
+            class="modal-input"
             placeholder="Enter card.."
-            pattern="[0-9]{16}"
-            title="1111111111111111"
             required
           />
-        </label>
-        <label class="modal-input-field">
+        </div>
+        <!-- Textarea -->
+        <div class="input modal-textarea">
           <textarea
+            class="modal-comment"
             name="user-comment"
-            class="modal-input-item modal-comment"
+            id="user-comment"
             placeholder="Enter comments..."
           ></textarea>
-        </label>
+        </div>
+        <!-- Button -->
+        <button type="submit" class="send-button">Submit</button>
+      </form>
+    </section>
       </div>
-      <button type="submit" class="modal-send-btn">Submit</button>
-    </form>
-  </div>
+    </section>
 </div>

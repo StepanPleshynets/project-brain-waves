@@ -22,7 +22,6 @@
   background-color: #fff;
   padding: 13px 20px 13px 20px;
   flex-shrink: 0;
- 
   flex-wrap: wrap;
   align-items: center;
 }
@@ -83,8 +82,7 @@
   margin-bottom: 0;
 }
 
-.list-item-text {
-}
+
 
 .is-hidden {
   visibility: hidden;
