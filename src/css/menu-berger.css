@@ -1,5 +1,5 @@
 .menu {
-  max-width: 375px;
+  /* max-width: 375px; */
   position: fixed;
   z-index: 1000;
   top: 0;
