@@ -10,8 +10,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
-    <script type="module" crossorigin src="/project-brain-waves/assets/index-d0d2987b.js"></script>
-    <link rel="stylesheet" href="/project-brain-waves/assets/index-af123591.css">
+    <script type="module" crossorigin src="/project-brain-waves/assets/index-5b832aa5.js"></script>
+    <link rel="stylesheet" href="/project-brain-waves/assets/index-9ec32790.css">
   </head>
   <body>
     <header class="header">
@@ -524,149 +524,190 @@
   </div>
 </footer>
 
-    <div class="backdrop is-hidden" data-modal>
-    <!-- Modal-header -->
-    <section class="modal-header" data-modal>
-      <div class="container-modal modal-header">
-        <h1 class="modal-title">Your Order</h1>
-        <button type="button" class="modal-close" data-modal-close>
-          <svg class="modal-close-icon">
-            <use href="./images/icons.svg#icon-close-black-18dp"></use>
-          </svg>
-        </button>
+    <div class="backdrop is-hidden" data-menu>
+  <div class="modal">
+    <picture class="modal-girl-img">
+      <source
+        srcset="/project-brain-waves/assets/modal_girl_tab-40f0e5d7.webp 1x, /project-brain-waves/assets/modal_girl_tab@2x-7bc4bb17.webp 2x"
+        media="(max-width: 1279px)"
+      />
+      <source
+        srcset="/project-brain-waves/assets/modal_girl_desktop-5d47012b.webp 1x, /project-brain-waves/assets/modal_girl_desktop@2x-9c2ac6dd.webp 2x"
+        media="(min-width: 1280px)"
+      />
+      <img
+        src="/project-brain-waves/assets/modal_girl_desktop-5d47012b.webp"
+        alt="Smiling girl with vegetables"
+      />
+    </picture>
+    <button type="button" class="modal-close-btn" data-menu-close>
+      <svg class="modal-close-icon">
+        <use href="/project-brain-waves/assets/project-brain-waves-icons-86b14c17.svg#icon-x"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">Your Order</h2>
+
+    <form class="modal-form">
+      <div class="modal-check-wrapper">
+        <div class="modal-form-check">
+          <input
+            type="checkbox"
+            name="cabbage"
+            id="cabbage"
+            class="modal-product-input visually-hidden"
+          />
+          <label for="cabbage" class="check-product-label">
+            <span class="item-check">
+              <svg class="icon-check">
+                <use
+                  href="/project-brain-waves/assets/project-brain-waves-icons-86b14c17.svg#icon-pick"
+                ></use>
+              </svg>
+            </span>
+            <span class="product-text-article">Cabbage Basket</span>
+            <span class="product-text-paragraph">Plant</span>
+            <picture class="modal-check-img">
+              <source
+                srcset="data:image/webp;base64,UklGRlIJAABXRUJQVlA4WAoAAAAQAAAAXQAATQAAQUxQSBkEAAABoIVt2xlJekuj6rFt27Zt27Zt27Zt27Zte3ersd2V96BS+ZP/r8VhREwA/t/NturetSMreuSIFpCcfb5SV/twdFwBe4BxNnlA40+nF7MHkn4R5Ik9Nz55/ZDeK31TBQz3Y5LlYYtTvP++n3okPy/LHyBKkdRSQzdSg03v9ciIHbkDQluSn216AJK3PeHVIf+akzYAjCG5C8azr/xLhwzuFVO57SQnCAAJJv3UIe+VUO0RyQ5CQPLlYToMm+5QKlI4ycomAAWv6ZD30qmUkiSzmQJHvXc69PRSqBDJsETmAAm36VCbFFmZWiS/uc2CrXeYDzlRmc4kn9hNA8p/1fFUUWUiyYOwMvkpH15wK7KO5HxLEOO6j5ZTkYMkB1uD/B6SrKuG4yzJdv7i5ajRvGGZ1FEEbPt9uqgR5TbJRnqF5j3XSDL4+tIGSYygk89ANWI+I1nBJ+8ujUY966u4/dVTKOE3koWAuIsjKPx1Yg6bTg2f3mqkDieZzdUljKZq5xtEB1Ddp4saOUmy0mWNpn+dnAo1fDqoUcJHo6UReyf5tFWjsY+cbdSYIE87NdbI82tNavlso7zykCFjY0gWby0lX2hV8r7L1y4cWTeJXuwTlN2byIqg5vt/Uvft2JgAYh+h/CWs6EOjq2PDtoEKVrYg6RtDXO9oThWrWlCdxr05hilR3oI+AmzcXYXwTBZMFBlQX4UNMN92RmRCGQWeB1mQRBOZl+Nv+arCwiwUHeHYJ19pK2JECITmRdAP6apagUnGtAEA7klXx5Jmxo65ANyWrrIV9UMNafUB4KR0NS2o9JXG2/hslW6kefE+UvCyG8B06dr5c8cSaUhRrR2ABtIVAmDP3WvtCy9v9E1mJMpuIa4C0Ew2byog8e5Q6v/uGdlfb4rvBDBWNg+Q9gON3kvkp58JEwEMku0PuO7T+FI/dcVCSwCoJtt29KdgSGS9XJrQaScQuVCIXFvdCb6JMKtenC9Ch6cefvKbUnsXRcIMCmfSQzchBSOmOOJ+F/rg9GNbrRx5fxmFN8B/yvfqmfhXTgPIeybwTIPhGOM9AeZIPGOwlZm/asKcQOE908UJM+up90do6OdTw5LB5ObSfREbljSZ2wbTS8i2oY/YTRusjOGRa0GUmWLMYAmahkukTQK6m9DaGtT67id07HcT7g79YECb6gJiR4jVtAixG6y7dPnM5DLuOTRxP2IN+qmnDYXvGqFvLqv82mZoZiwGkGhmCMnwXi6djB6Rm5A0r0YzG8I3/byQjw3ht6tAaHVZptLMW3F0gDQpYHBAuKGRdllmmdIUptpqXNb83K4LaeuYoM2LYg4QVGH8ktGNG9QqGgPyRt+kCW1wIaBW2vfDgPbqYE0bAm1Qmab9Nh5/GfZ5bv5oCNiOqHaoDABWUDggEgUAAPAYAJ0BKl4ATgA+kTyYSCWjoiEt9OywsBIJZgDMFI6R9pdGc/rwKdvHzwmnG0C1/Y+0vvx8iYV42E3WXbplWed5h6ADhizk2p0+SFj8FwJIx59KCE/td/0fBZdFmXTDvxtLjpBNl4C2hqztziYL3Vx2tG5E3SChutp3W8PDupVYAlgKEt47TfbrGh4+oqFJHfFYM2t9XGb8hD55GLVGEhCPE9gTC3kfPyNKlRjElpX/j4oloBPD510WMbDET3kU0BGPUT9P/rf02naFna1bSAAA/v20/X4CNZVIz6BmYcdY9nxmHX/UawoalzZmw6fFLfW3PUhpcn3030/0pG0tG/YdXFCht8qaqG1r8mVSUJv7wPAAjWjlhB5O3BeYEVVbPPX70vP/aP//9tT//twb//21dSgaFyuOGtAuNpv/qQ+mizlFV6Yo7bTcIL42jZOcAANJELqbM42TUS4P8XX4mFqmsB6v/8/9N4RUPinQDM+DoCFNt4JlJxjeO6sa8cozSuZKWifROv/bW18zNqMZUdjTa07ysntZpwLrBr77Tbr8dxoOCL0F7HcXvY24baNAjPvw20VkR173U2fUe7bAlXu/qrooQQYe93sk6o/bSkmzSBuEZsDNRfZecCuQuy9b9VIazw+MBxizHKy+g0lZaWYPjkPAQ434ykVSyp1PRjJLO/3q/Yxz4x9BX8fTn7H9AnUzaNultqXNif8hLW/Wd255dAEGKNqQ83U/gZBAh0ERbLUqgh+8Jcys2CbYEkMw0U49njjn2/yo8zeK2uz+E9x8TPFYK+k7Y/2XAVBTlpuaSr8Ah3AxjDwrZZ6tbg76wxF44/fZrnQFPoN8VCudD3mpXWy6jVLgXBuihqnZV0qEEkIVBMBDoWB1dac+r9V0JYynmTG6orkxKD/Qs+76vOJailQ1yJNJsgcCJHhip/rHPvLaSMjL7GI3rk3Q5uNMRt0QjLELwyhm5fN1PMjz78/R7W/Cu3fZc49ZF4e8PM2HP3nbPoLGq10XpLfB+QrYENYONR7ZXFztO2FvAipHFMSku8ArPRkpWWz3BjcTIN56wgxXAWbbiAglfZ1LEty8qYPvvQ+PHvHJQxamNqLGoEbi2xZhVMHNJbM+BrzlnSz/dXInrBb9iw2Dh8Tn0W+au6tUEqP8aSvMcqknlrZZd9AU+5rhYnRlS9R8iZWsDl+NTPHljxiA2gyzQXEIZqIhdFnoeucp5EpuFueHmgfK2/YFAnSNyGaShRTnE1jKmADoBpZ2xD8aoqFgK9bYRwkvKnC1+H10mo9WNoQy4jppm2YgLbaijxu7s5mjGvHRmJv+c1VTuH4JD15Y+sZkhL+EK84PiV+eHi/k4KbMbg1WJNCriIIr6RwzkQZt0s7eceHeZ/jIiXTYp5bmgOc67erKMEfX4bv2zd1PYkCc5oirGE/oT//+OH//jJD//xoqFVA3leC+9NnKtJXXTQomcRAzuZsOyDiQKPa0nbwZ55QWakqjt4JdGm9XdjBYtq58dckFDn4n4x9Ndg3TggvGPNm3yd0kh/mSMQQntoG3Akkrn+H5pYGsTPdBBi5lWohPTGZHFfflCW4f8vRNHtq8JeBauNfDZn5j0cg3w6c7Ey3OHzGvAcSH/WC7/+rKGv8deT33BnIcs6GfAI50G7JjTKZA+4dCsNKQhj7vmCEOTz0HMwPCAEeL8OQXlNCsnivkTDhVQiG5zwWx2nj/2estOdHigAAA 1x, /project-brain-waves/assets/1_modal_mob@2x-281367a0.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <source
+                srcset="/project-brain-waves/assets/1_modal_tab-745fe894.webp 1x, /project-brain-waves/assets/1_modal_tab@2x-0d14216e.webp 2x"
+                media="(max-width: 1279px)"
+              />
+              <source
+                srcset="/project-brain-waves/assets/1_modal_desktop-fc6f7a36.webp 1x, /project-brain-waves/assets/1_modal_desktop@2x-19c56011.webp 2x"
+                media="(min-width: 1280px)"
+              />
+              <img
+                src="/project-brain-waves/assets/1_modal_desktop-fc6f7a36.webp"
+                alt="Cabbage Basket"
+                width="243"
+              />
+            </picture>
+          </label>
+        </div>
+        <div class="modal-form-check">
+          <input
+            type="checkbox"
+            name="tomato"
+            id="tomato"
+            class="modal-product-input visually-hidden"
+          />
+          <label for="tomato" class="check-product-label">
+            <span class="item-check">
+              <svg class="icon-check" width="6" height="6">
+                <use
+                  href="/project-brain-waves/assets/project-brain-waves-icons-86b14c17.svg#icon-pick"
+                ></use>
+              </svg>
+            </span>
+            <span class="product-text-article">Tomato Basket</span>
+            <span class="product-text-paragraph">Plant</span>
+            <picture class="modal-check-img">
+              <source
+                srcset="data:image/webp;base64,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 1x, /project-brain-waves/assets/2_modal_mob@2x-89b27c1f.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <source
+                srcset="/project-brain-waves/assets/2_modal_tab-fb451f87.webp 1x, /project-brain-waves/assets/2_modal_tab@2x-65ad1019.webp 2x"
+                media="(max-width: 1279px)"
+              />
+              <source
+                srcset="/project-brain-waves/assets/2_modal_desktop-4795ba71.webp 1x, /project-brain-waves/assets/2_modal_desktop@2x-3f30e5b7.webp 2x"
+                media="(min-width: 1280px)"
+              />
+              <img
+                src="/project-brain-waves/assets/2_modal_desktop-4795ba71.webp"
+                alt="Tomato Basket"
+                width="243"
+              />
+            </picture>
+          </label>
+        </div>
+        <div class="modal-form-check">
+          <input
+            type="checkbox"
+            name="vegetables"
+            id="vegetables"
+            class="modal-product-input visually-hidden"
+          />
+          <label for="vegetables" class="check-product-label">
+            <span class="item-check">
+              <svg class="icon-check" width="6" height="6">
+                <use
+                  href="/project-brain-waves/assets/project-brain-waves-icons-86b14c17.svg#icon-pick"
+                ></use>
+              </svg>
+            </span>
+            <span class="product-text-article">Vegetables Basket</span>
+            <span class="product-text-paragraph">Plant</span>
+            <picture class="modal-check-img">
+              <source
+                srcset="data:image/webp;base64,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 1x, /project-brain-waves/assets/3_modal_mob@2x-a35e93c9.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <source
+                srcset="/project-brain-waves/assets/3_modal_tab-7622f190.webp 1x, /project-brain-waves/assets/3_modal_tab@2x-7901d367.webp 2x"
+                media="(max-width: 1279px)"
+              />
+              <source
+                srcset="/project-brain-waves/assets/3_modal_desktop-78967e56.webp 1x, /project-brain-waves/assets/3_modal_desktop@2x-3d92f94e.webp 2x"
+                media="(min-width: 1280px)"
+              />
+              <img
+                src="/project-brain-waves/assets/3_modal_desktop-78967e56.webp"
+                alt="Vegetables Basket"
+                width="243"
+              />
+            </picture>
+          </label>
+        </div>
       </div>
-    </section>
-    <!-- Modal-product -->
-    <section>
-      <div class="container-modal">
-        <ul class="modal-check">
-          <li class="modal-check-product">
-            <input
-              type="checkbox"
-              name="cabbage"
-              id="cabbage"
-              class="modal-product-input"
-              hidden
-            />
-            <label for="cabbage" class="check-product-label">
-              <span class="item-check">
-                <svg class="icon-check">
-                  <use href="./css/icons.svg#icons-pick"></use>
-                </svg>
-              </span>
-            </label>
-            <div class="product-text">
-              <h3 class="product-text-article">Cabbage Basket</h3>
-              <p class="product-text-paragraph">Plant</p>
-            </div>
-            <!-- pICTURES -->
-            
-          </li>
-          <li class="modal-check-product">
-            <input
-              type="checkbox"
-              name="tomato"
-              id="tomato"
-              class="modal-product-input"
-              hidden
-            />
-            <label for="tomato" class="check-product-label">
-              <span class="item-check">
-                <svg class="icon-check">
-                  <use href="./css/icons.svg#icons-pick"></use>
-                </svg>
-              </span>
-            </label>
-            <div class="product-text">
-              <h3 class="product-text-article">Tomato Basket</h3>
-              <p class="product-text-paragraph">Plant</p>
-            </div>
-            <!-- pICTURES -->
-            <img
-              src="./images/product/tomato.png"
-              alt="Tomato Basket"
-              class="product-img"
-            />
-          </li>
-          <li class="modal-check-product">
-            <input
-              type="checkbox"
-              name="vegetables"
-              id="vegetables"
-              class="modal-product-input"
-              hidden
-            />
-            <label for="vegetables" class="check-product-label">
-              <span class="item-check">
-                <svg class="icon-check">
-                  <use href="./css/icons.svg#icons-pick"></use>
-                </svg>
-              </span>
-            </label>
-            <div class="product-text">
-              <h3 class="product-text-article">Vegetables Basket</h3>
-              <p class="product-text-paragraph">Plant</p>
-            </div>
-            <!-- pICTURES -->
-            <img
-              src="./images/product/vegetables-basket.png"
-              alt="Vegetables Basket"
-              class="product-img"
-            />
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- Inputs -->
-    <section class="modal-form-input">
-      <div class="container-modal">
-        <form class="modal-form">
-        <div class="input">
+
+      <div class="modal-inputs-wrapper">
+        <label class="modal-input-field">
           <input
             type="text"
             name="user-name"
-            id="user-name"
-            class="modal-input"
+            class="modal-input-item modal-input"
             placeholder="Enter full name..."
+            pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+            title="Full name must consist of two english words separated by a space."
             required
           />
-        </div>
-        <div class="input">
+        </label>
+        <label class="modal-input-field">
           <input
             type="email"
-            name="user-tel"
-            id="user-tel"
-            class="modal-input"
+            name="user-email"
+            class="modal-input-item modal-input"
             placeholder="Enter email..."
             required
           />
-        </div>
-        <div class="input">
+        </label>
+        <label class="modal-input-field">
           <input
             type="text"
-            name="user-email"
-            id="user-email"
-            class="modal-input"
+            name="user-card"
+            class="modal-input-item modal-input"
             placeholder="Enter card.."
             required
           />
-        </div>
-        <!-- Textarea -->
-        <div class="input modal-textarea">
+        </label>
+        <label class="modal-input-field">
           <textarea
-            class="modal-comment"
             name="user-comment"
-            id="user-comment"
+            class="modal-input-item modal-comment"
             placeholder="Enter comments..."
           ></textarea>
-        </div>
-        <!-- Button -->
-        <button type="submit" class="send-button">Submit</button>
-      </form>
-    </section>
+        </label>
       </div>
-    </section>
+      <button type="submit" class="modal-send-btn">Submit</button>
+    </form>
+  </div>
 </div>
+
 
     
     
