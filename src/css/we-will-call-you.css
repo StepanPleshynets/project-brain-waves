@@ -68,6 +68,8 @@
     border-radius: 40px;
     background: #FAF3E7;
     background-image: url(../images/BG_dots.png);
+    background-repeat: no-repeat;
+    background-position: 29px 0;
     max-width: 335px;
     display: flex;
     justify-content: center;
@@ -100,6 +102,7 @@
     .bg-salad-girl{
         margin: 0 auto;
         margin-top: 40px;
+        background-image: url(../images/bg-dots-mob.png);
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1279px){
@@ -137,6 +140,7 @@
         height: 463px;
         margin: 0 auto;
         margin-top: 80px;
+        background-image: url(../images/bg-dots-tab.png);
     }
     .recall-form{
         margin: 0 auto;
@@ -173,6 +177,7 @@
         height: 536px;
         margin-left: auto;
         margin-top: -430px;
+        background-image: url(../images/bg-dots-desktop.png);
     }
     .salad-girl-img{
         /* width: 490px; */
@@ -182,5 +187,11 @@
     }
     .phone-send{
         width: 523px;
+    }
+    .input-phone-form{
+        width: 355px;
+    }
+    .recall-button{
+        left: 250px;
     }
 }
