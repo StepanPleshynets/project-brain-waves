@@ -1,0 +1,223 @@
+.container-howitworks {
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+
+.titel-howitworks {
+    max-width: 335px;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    color: var(--primary-text-black);
+    margin-bottom: 20px;
+}
+
+.brocolli-container {
+    display: flex;
+    justify-content: left;
+}
+
+.brocolli-container picture {
+    width: 100%;
+    max-width: 335px;
+    max-height: 158px;
+}
+
+.first-reason,
+.second-reason {
+    max-width: 335px;
+    font-size: 14px;
+    font-family: DM Sans;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    color: var(--primary-text-black);
+    margin-top: 20px;
+
+}
+
+
+.container-easysteps {
+    background-color: var(--bcg-section-purple);
+    border-radius: 40px;
+    padding: 40px 20px 0 20px;
+
+}
+
+.titel-easysteps {
+    max-width: 335px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.16;
+    font-family: DM Sans;
+    letter-spacing: -0.96px;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    color: var(--primary-text-black);
+    margin-bottom: 40px;
+}
+
+
+.step {
+    max-width: 230px;
+    font-size: 14px;
+    font-family: DM Sans;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    color: var(--primary-text-black);
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 54px;
+    counter-increment: list-counter;
+}
+
+.step::before {
+    content: counter(list-counter);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    width: 40px;
+    height: 38px;
+    border-radius: 50%;
+   background: var(--hero-green-tee);
+    color: var(--primary-text-black);
+    font-size: 18px;
+    font-family: DM Sans;
+    line-height: 38px;
+    text-align: center;
+}
+
+.girl-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.girl-container picture {
+    max-width: 258px;
+    max-height: 319px;
+}
+
+@media screen and (min-width: 768px) {
+    .container-howitworks {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        row-gap: 40px;
+    }
+
+    .titel-howitworks {
+        max-width: 386px;
+        font-size: 40px;
+        line-height: 1.1;
+        letter-spacing: -1.6px;
+        margin-bottom: 0;
+    }
+
+    .brocolli-container picture {
+        max-width: 310px;
+        max-height: 176px;
+    }
+
+    .first-reason,
+    .second-reason {
+        margin-top: 0;
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: -0.72px;
+    }
+
+    .first-reason {
+        max-width: 317px;
+        margin-right: 20px;
+    }
+
+    .second-reason {
+        max-width: 279px;
+    }
+
+    .container-easysteps {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .titel-easysteps {
+        max-width: 274px;
+        font-size: 28px;
+        line-height: 1.14;
+        letter-spacing: -1.12px;
+
+    }
+
+
+    .girl-container {
+        order: -1;
+        flex: 0 0 auto;
+        margin-right: 40px;
+    }
+
+    .girl-container picture {
+        max-width: 350px;
+        max-height: 446px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .titel-howitworks {
+        max-width: 614px;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.04;
+        letter-spacing: -1.92px;
+        margin-right: 192px;
+    }
+
+    .brocolli-container picture {
+        max-width: 410px;
+        max-height: 170px;
+    }
+
+    .container-howitworks> :nth-child(-n + 1) {
+        margin-right: auto;
+    }
+
+    .first-reason {
+        max-width: 353px;
+        margin-right: 40px;
+    }
+
+    .second-reason {
+        max-width: 294px;
+    }
+
+    .titel-easysteps {
+        max-width: 512px;
+        font-size: 40px;
+        line-height: 1.1;
+        letter-spacing: -1.6px;
+    }
+
+    .step:nth-child(1),
+    .step:nth-child(3) {
+        max-width: 289px;
+    }
+
+    .girl-container {
+        margin-right: 110px;
+    }
+   .girl-container picture {
+width: 434px;
+height: 420px;
+    }
+}
