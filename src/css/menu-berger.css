@@ -83,7 +83,6 @@
 }
 
 
-
 .is-hidden {
   visibility: hidden;
   opacity: 0;
@@ -91,5 +90,6 @@
 }
 
 .menu-list-icon {
-  fill: #fff;
+  stroke: #fff;
+  fill: #a1c487;
 }
