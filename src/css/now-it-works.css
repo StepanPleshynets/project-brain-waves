@@ -54,7 +54,7 @@
     .container-easysteps {
     background-image: url(./images/bg_dots_s2_mob@2x.png);
     background-image: url(../images/bg_dots_s2_mob.png);
-}
+}}
 
 .titel-easysteps {
     max-width: 335px;
@@ -112,7 +112,7 @@
     max-width: 258px;
     max-height: 319px;
 }
-}
+
 
 @media screen and (min-width: 768px) {
     .container-howitworks {
@@ -159,12 +159,11 @@
         align-items: center;
         background-image: url(../images/bg_dots_s2_tab.png);
     }
-}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
         only screen and (min-resolution: 192dpi) {
     .container-easysteps {
-    background-image: url(./images/bg_dots_s2_tab@2x.png);
+    background-image: url(./images/bg_dots_s2_tab@2x.png);}
 }
 
     .titel-easysteps {
@@ -219,11 +218,11 @@
     .container-easysteps {
     background-image: url(./images/bg_dots_s2_desktop.png);
     }
-}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
         only screen and (min-resolution: 192dpi) {
 .container-easysteps {
-    background-image: url(./images/bg_dots_s2_desktop@2x.png);
+    background-image: url(./images/bg_dots_s2_desktop@2x.png);}
 }
 
     .titel-easysteps {
@@ -232,9 +231,7 @@
         line-height: 1.1;
         letter-spacing: -1.6px;
     }
-    .container-easysteps{
-        background-image: url(../images/bg_dots_s2_desktop.png);
-    }
+   
     .step:nth-child(1),
     .step:nth-child(3) {
         max-width: 289px;
