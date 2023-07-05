@@ -1,4 +1,7 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 h1,
 h2,
 h3,
@@ -144,7 +147,7 @@ li {
     height: 17px;
     fill: var(--white-color);
     padding-right: 4px;
-    transform: rotate(14deg);   
+    transform: rotate(14deg);
 }
 
 
@@ -176,6 +179,12 @@ li {
     .goods-item {
         max-width: 342px;
         padding: 64px 24px 24px 24px;
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .goods-item:hover,
+    .goods-item:focus {
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
     }
 
     .section-title {
