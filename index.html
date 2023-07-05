@@ -622,17 +622,47 @@
         <div class="modal-form-check">
           <input
             type="checkbox"
-            name="vegetables"
-            id="vegetables"
+            name="vegetabless"
+            id="vegetabless"
             class="modal-product-input visually-hidden"
           />
-          <label for="vegetables" class="check-product-label">
+          <!-- <label for="vegetables" class="check-product-label">
+            <span class="item-check">
+              <svg class="icon-check">
+                <use
+                  href="./images/project-brain-waves-icons.svg#icon-pick"
+                ></use>
+              </svg> -->
+              <label for="vegetabless" class="check-product-label">
             <span class="item-check">
               <svg class="icon-check">
                 <use
                   href="/project-brain-waves/assets/project-brain-waves-icons-86b14c17.svg#icon-pick"
                 ></use>
               </svg>
+            </span>
+            <span class="product-text-article">Tomato Basket</span>
+            <span class="product-text-paragraph">Plant</span>
+            <picture class="modal-check-img">
+              <source
+                srcset="data:image/webp;base64,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 1x, /project-brain-waves/assets/2_modal_mob@2x-89b27c1f.webp 2x"
+                media="(max-width: 767px)"
+              />
+              <source
+                srcset="/project-brain-waves/assets/2_modal_tab-fb451f87.webp 1x, /project-brain-waves/assets/2_modal_tab@2x-65ad1019.webp 2x"
+                media="(max-width: 1279px)"
+              />
+              <source
+                srcset="/project-brain-waves/assets/2_modal_desktop-4795ba71.webp 1x, /project-brain-waves/assets/2_modal_desktop@2x-3f30e5b7.webp 2x"
+                media="(min-width: 1280px)"
+              />
+              <img
+                src="/project-brain-waves/assets/2_modal_desktop-4795ba71.webp"
+                alt="Tomato Basket"
+                width="243"
+              />
+            </picture>
+          </label>
             </span>
             <span class="product-text-article">Vegetables Basket</span>
             <span class="product-text-paragraph">Plant</span>
