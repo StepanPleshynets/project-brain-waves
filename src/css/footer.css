@@ -38,6 +38,7 @@
 }
 
 .footer-navigation-link {
+  position: relative;
   color: var(--primary-text-black);
   font-size: 14px;
   line-height: 18px;
@@ -45,9 +46,27 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-navigation-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--hero-green-tee);
+  border-radius: 1px;
+  transform: scaleX(0);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .footer-navigation-link:hover,
 .footer-navigation-link:focus {
   color: var(--hero-green-tee);
+}
+
+.footer-navigation-link:hover::after,
+.footer-navigation-link:focus::after {
+  transform: scaleX(1);
 }
 
 .footer-social-list {
