@@ -44,18 +44,16 @@
 
 .container-easysteps {
     background-color: var(--bcg-section-purple);
-  background-image: url(./images/bg_dots_s2_mob.png);
-  backgroung-size: cover;
+    background-image: url(./images/bg_dots_s2_mob.png);
+    background-size: cover;
     border-radius: 40px;
-    padding: 40px 20px 0 20px;
+    padding: 40px 20px 0 20px;}
 
-}
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
-       only screen and (min-resolution: 192dpi) {
-  .container-easysteps {
+        only screen and (min-resolution: 192dpi) {
+    .container-easysteps {
     background-image: url(./images/bg_dots_s2_mob@2x.png);
     background-image: url(../images/bg_dots_s2_mob.png);
-
 }
 
 .titel-easysteps {
@@ -95,7 +93,7 @@
     width: 40px;
     height: 38px;
     border-radius: 50%;
-   background: var(--hero-green-tee);
+    background: var(--hero-green-tee);
     color: var(--primary-text-black);
     font-size: 18px;
     font-family: DM Sans;
@@ -113,6 +111,7 @@
 .girl-container picture {
     max-width: 258px;
     max-height: 319px;
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -154,19 +153,20 @@
     }
 
     .container-easysteps {
-      background-image: url(./images/bg_dots_s2_tab.png);
+        background-image: url(./images/bg_dots_s2_tab.png);
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         background-image: url(../images/bg_dots_s2_tab.png);
     }
+}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
-       only screen and (min-resolution: 192dpi) {
-  .container-easysteps {
+        only screen and (min-resolution: 192dpi) {
+    .container-easysteps {
     background-image: url(./images/bg_dots_s2_tab@2x.png);
-  }
 }
+
     .titel-easysteps {
         max-width: 274px;
         font-size: 28px;
@@ -216,16 +216,16 @@
     .second-reason {
         max-width: 294px;
     }
-      .container-easysteps {
-      background-image: url(./images/bg_dots_s2_desktop.png);
+    .container-easysteps {
+    background-image: url(./images/bg_dots_s2_desktop.png);
     }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-       only screen and (min-resolution: 192dpi) {
-  .container-easysteps {
-    background-image: url(./images/bg_dots_s2_desktop@2x.png);
-  }
 }
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi) {
+.container-easysteps {
+    background-image: url(./images/bg_dots_s2_desktop@2x.png);
+}
+
     .titel-easysteps {
         max-width: 512px;
         font-size: 40px;
@@ -243,17 +243,17 @@
     .girl-container {
         margin-right: 110px;
     }
-   .girl-container picture {
+    .girl-container picture {
 max-width: 434px;
 max-height: 420px;
     }
 }
 @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .container-easysteps {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+.container-easysteps {
     background-image: url('../images/bg_dots_s2_desktop@2x.png');
     background-image: url('../images/bg_dots_s2_mob@2x.png');
     background-image: url('../images/bg_dots_s2_tab@2x.png');
-  }
+}
 }  
