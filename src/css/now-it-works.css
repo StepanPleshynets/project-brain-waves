@@ -48,12 +48,14 @@
   backgroung-size: cover;
     border-radius: 40px;
     padding: 40px 20px 0 20px;
+
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
        only screen and (min-resolution: 192dpi) {
   .container-easysteps {
     background-image: url(./images/bg_dots_s2_mob@2x.png);
-  }
+    background-image: url(../images/bg_dots_s2_mob.png);
+
 }
 
 .titel-easysteps {
@@ -156,6 +158,7 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        background-image: url(../images/bg_dots_s2_tab.png);
     }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -229,7 +232,9 @@
         line-height: 1.1;
         letter-spacing: -1.6px;
     }
-
+    .container-easysteps{
+        background-image: url(../images/bg_dots_s2_desktop.png);
+    }
     .step:nth-child(1),
     .step:nth-child(3) {
         max-width: 289px;
@@ -243,3 +248,12 @@ max-width: 434px;
 max-height: 420px;
     }
 }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .container-easysteps {
+    background-image: url('../images/bg_dots_s2_desktop@2x.png');
+    background-image: url('../images/bg_dots_s2_mob@2x.png');
+    background-image: url('../images/bg_dots_s2_tab@2x.png');
+  }
+}  
