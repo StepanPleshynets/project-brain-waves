@@ -102,7 +102,7 @@
     .bg-salad-girl{
         margin: 0 auto;
         margin-top: 40px;
-        background-image: url(../images/bg-dots-mob.png);
+        background-image: url(../images/bg_dots_s4_mob.png);
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1279px){
@@ -140,7 +140,7 @@
         height: 463px;
         margin: 0 auto;
         margin-top: 80px;
-        background-image: url(../images/bg-dots-tab.png);
+        background-image: url(../images/bg_dots_s4_tab.png);
     }
     .recall-form{
         margin: 0 auto;
@@ -177,7 +177,7 @@
         height: 536px;
         margin-left: auto;
         margin-top: -430px;
-        background-image: url(../images/bg-dots-desktop.png);
+        background-image: url(../images/bg_dots_s4_desktop.png);
     }
     .salad-girl-img{
         /* width: 490px; */
@@ -195,3 +195,12 @@
         left: 250px;
     }
 }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .bg-salad-girl {
+    background-image: url('../images/bg_dots_s4_desktop@2x.png');
+    background-image: url('../images/bg_dots_s4_mob@2x.png');
+    background-image: url('../images/bg_dots_s4_tab@2x.png');
+  }
+} 
