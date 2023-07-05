@@ -94,7 +94,7 @@
   height: 6px;
 }
 
-.modal-product-input:checked+.check-product-label>.item-check {
+.modal-product-input:checked + .check-product-label .item-check {
   fill: var(--hero-green-tee);
 }
 
