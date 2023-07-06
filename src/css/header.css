@@ -73,6 +73,18 @@
     line-height: 1.28;
     letter-spacing: -0.56px;
   }
+  .menu-header>.item>.link:hover,
+  .menu-header>.item>.link:focus {
+    color: var(--hero-green-tee);
+  }
+  .logo-text:hover,
+  .logo-text:focus {
+    color: var(--hero-green-tee);
+  }
+  .shopping-cart:hover,
+  .shopping-cart:focus {
+    stroke: var(--hero-green-tee);
+  }
   .shopping-cart-icon {
     display: flex;
   }
